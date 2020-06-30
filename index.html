@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+
+    <!-- Titulo  -->
+    <title>Inicio</title>
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="resources/css/styles.css" />
+
+    <style>
+        .parallax {
+            background-image: url("./resources/img/inicio/laptop-cafe1.jpg");
+            /* Set a specific height */
+            height: 450px;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .parallax1 {
+            background-image: url("./resources/img/inicio/laptop1.jpg");
+
+            height: 450px;
+
+            background-attachment: fixed;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .h1 {
+            font-family: 'Sedgwick Ave', cursive;
+            font-size: 50px;
+            color: aliceblue;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -10%);
+        }
+
+        .h1-2 {
+            font-family: 'Sedgwick Ave', cursive;
+        }
+
+        .p1 {
+            font-family: 'Sedgwick Ave', cursive;
+            color: aliceblue;
+            position: absolute;
+            top: 65%;
+            left: 50%;
+            transform: translate(-50%, -10%);
+        }
+
+        h3,
+        h2 {
+            font-family: 'Sedgwick Ave', cursive;
+        }
+
+        #img4 {
+            border-radius: 210px;
+            box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548);
+        }
+
+        .seccion5 .col-md-4 {
+            margin: 0 !important;
+            padding: 25px;
+        }
+
+        .seccion5 img {
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+            box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548);
+            transition: 1s;
+        }
+
+        .seccion5 h3 {
+            display: block;
+            position: absolute;
+            top: 10%;
+            left: 30%;
+            color: antiquewhite;
+        }
+
+        .seccion5 img:hover {
+            border: 5px solid #eeecec;
+            transform: scale(1.1);
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!-- Barra Navegadora -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+        <img src="./resources/img/logo2.png" alt="" width="50" height="50" class="navbar-brand mr-2 text-center">
+        <a class="navbar-brand" style="font-size: 30px;" href="#">PyP Media</a>
+        <button class="navbar-toggler hidden-lg-up bg-light" type="button" data-toggle="collapse"
+            data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+            aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mr-5 mt-2 mt-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vistas/diseñoWyM.html">Diseño Web y Móvil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vistas/comunityManager.html">Comunity Manager</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vistas/asesoriaEstrategica.html">Asesoria Estrategica</a>
+                </li>
+                <!--                <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false">Servicios</a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                            <a class="dropdown-item" href="#">Action 1</a>
+                                            <a class="dropdown-item" href="#">Action 2</a>
+                                        </div>
+                                    </li>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="vistas/quienesSomos.html">Quines Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vistas/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vistas/blog.html">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="cabecera">
+        <div class="parallax">
+            <div class="row h-100">
+                <div class="col-md-12 ">
+                    <h1 class=" h1 text-center"> PyP Media-Marketing digital</h1>
+                    <h4 class="text-center p1" style=" color: aliceblue;">Nuestra estrategia...tu crecimiento</h4>
+                </div>
+            </div>
+        </div>
+        <div class="seccion-media bg-dark">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-8  text-white align-self-center text-center font-weight-normal py-3">
+                        <p>Somos una agencia especializada en Marketing Digital, en constante crecimiento e innovación.
+                            <br> Somos
+                            un grupo
+                            de trabajo profesional que cuida al detalle lo que hace, buscando siempre maximizar
+                            resultados.
+                            Para lograrlo, ponemos a tu dispocision un equipo responsable,
+                            dedicado y ambicioso de lograr tus objetivos.</p>
+                        <a id="boton" href="./vistas/quienesSomos.html" class="btn btn-lg btn-info"
+                            style="border-radius: 10px;">Conocenos..</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section>
+        <div class="paralla">
+            <div class="row h-100 align-items-center ">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5 mt-3">
+        <div class="container mb-4 ">
+            <div class="row">
+                <div class="col-md-12 mb-3">
+                    <h3 class="h1-2 text-center">Nos especializamos en...</h3>
+                </div>
+                <div class="col-md-6 text-center border-right border-secondary">
+                    <h3>Diseño y Programacion Web</h3>
+                    <p>Somos una agencia de marketing digital, desarrollamos, diseñamos, planificamos sitios y
+                        plataformas online, Además utilizamos las últimas tecnologías y tendencias del mercado.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center border-left border-secondary">
+                    <h3>Redes sociales</h3>
+                    <p>Tu marca presente a diario las redes sociales, interactuando con los consumidores y
+                        atrayendo nuevos y potenciales clientes mediante la creacion de contenido de interés.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center border-right border-secondary">
+                    <h3>Desarrollo de sitios eCommerce </h3>
+                    <p>Te ofrecemos la posibilidad de vender las 24 horas, mediante una plataforma ecommerce de venta
+                        online por esta razón integramos múltiples formas de pago seguidamente de un excelente
+                        posicionamiento en buscadores.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center border-left border-secondary">
+                    <h3>Asesoria Estrategica</h3>
+                    <p>Te escuchamos y te brindamos asesoramiento para encontrar la mejor estrategia de ventas y el
+                        mejor desarrollo
+                        para tu negocio.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section c>
+
+    <section class="seccion3 py-4" style=" background-color: #eeecec;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-justify align-self-center">
+                    <h3>Pero....que es el marketing digital?</h3>
+                    <p>El Marketing Digital, también conocido como Mercadotecnia Digital es el conjunto de actividades
+                        que una empresa (o persona) ejecuta en línea con el objetivo de atraer nuevos negocios, crear
+                        relaciones y desarrollar una identidad de marca. Dentro de sus estrategias están el SEO, Inbound
+                        Marketing y el Marketing de Contenidos.</p>
+                </div>
+                <div class="col-md-6 align-self-center">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/KtJJdo-9Yik" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="seccion4 py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <img id="img4" src="./resources/img/inicio/marketing-digital.jpg" alt="" width="90%" height="90%">
+                </div>
+                <div class="col-md-6 align-self-center">
+                    <h2>Porque y para que elegirnos para publicitar tu negocio?</h2>
+                    <p>Publicitar online con una agencia de marketing digital abre el canal de ventas más grande del
+                        mundo: Internet. Miles y miles de búsquedas se realizan por cada segundo que pasa. Google gusta
+                        llamar a este concepto Micromomentos, estos son los momentos donde tomamos nuestro Smartphone y
+                        buscamos donde
+                        conseguir nuestro proximo producto y elegimos primero a quien este mejor posicionado o
+                        mejor dicho, quien tenga mayor visibilidad
+                        en la web junto con productos de calidad y precios competitivos.
+                        Por esto es clave para tu negocio ingresar al mundo de las ventas en linea.
+                        Nosotros te aseguramos.. </p>
+                    <p><i class="fa fa-check" aria-hidden="true"></i>
+                        Presencia Digital dentro del Mercado Online para tu negocio.<br>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Aumento del alcance de potenciales Clientes.<br>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Posicionarse competitivamente ante la competencia.<br>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Incremento en tus ventas!!!</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion5 container mt-3" style=" background-color: #eeecec;">
+        <div class="row">
+            <div class="col-md-12 text-center pt-4">
+                <h2>¿En que podemos ayudarte?</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <a href="./vistas/asesoriaEstrategica.html"><img src="./resources/img/inicio/asesoria.jpg"
+                        alt="Galeria imagen"></a>
+                <h3>aqui va algo</h3>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <a href="./vistas/comunityManager.html"><img src="./resources/img/inicio/facebook.jpg"
+                        alt="Galeria imagen"></a>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <a href="./vistas/diseñoWyM.html"><img src="./resources/img/inicio/webMov.jpg" alt="Galeria imagen"></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue text-white pt-4 mt-5 bg-dark">
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-md-1">
+                    <img src="./resources/img/logo2.png" alt="" width="70" height="70" class="footer-logo mr-2">
+                </div>
+                <div class="col-md-5 mt-md-0 mt-3">
+                    <h5 class="text-uppercase">PyP Media</h5>
+                    <p>Calle Mendoza 451, Santiago del Estero, Argentina</p>
+                </div>
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h6 class="text-uppercase">Servicios</h6>
+                    <ul class="list-unstyled">
+                        <li> <a href="index.html">Inicio</a> </li>
+                        <li> <a href="vistas/diseñoWyM.html">Diseño Web y Móvil</a> </li>
+                        <li> <a href="vistas/comunityManager.html">Comunity Manager</a> </li>
+                        <li> <a href="vistas/asesoriaEstrategica.html">Asesoria Estrategica</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h6 class="text-uppercase">Corporativo</h6>
+                    <ul class="list-unstyled">
+                        <li> <a href="vistas/quienesSomos.html">Quienes Somos</a> </li>
+                        <li> <a href="vistas/contacto.html">Contacto</a> </li>
+                        <li> <a href="vistas/blog.html">Blog</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 bg-light">
+            © 2020 Copyright: Ponce-Pardo Agencia de marketing digital
+        </div>
+    </footer>
+
+    <!-- Bootrtrap 4 scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>

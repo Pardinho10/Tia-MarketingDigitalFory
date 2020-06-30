@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+
+
+
+    <!-- Titulo  -->
+    <title>Asesoramiento</title>
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./../resources/css/styles.css" />
+
+    <style>
+        /* *{
+            background: #000 !important;
+            color: #0f0 !important;
+            outline: solid #f00 1px !important;
+        } */
+        .parallax {
+            background-image: url("./../resources/img/asesoria/ajedrez.jpg");
+            /* Set a specific height and width */
+            height: 500px;
+            width: 1350px;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .h1 {
+            font-family: 'Sedgwick Ave', cursive;
+            font-size: 50px;
+            color: aliceblue;
+            position: absolute;
+            top: 65%;
+            left: 40%;
+            transform: translate(-10%, -50%);
+        }
+
+        .card {
+            overflow: hidden;
+            box-shadow: 15px 15px 15px rgba(236, 88, 2, 0.548);
+        }
+
+        h2,
+        h3 {
+            font-family: 'Sedgwick Ave', cursive;
+        }
+
+        .foto {
+            border-radius: 20%/60%;
+            overflow: hidden;
+            box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548);
+
+            transition: all .5s ease-in-out;
+        }
+
+
+
+        .foto:hover {
+            filter: sepia(70%);
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!-- Barra Navegadora -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+        <img src="./../resources/img/logo2.png" alt="" width="50" height="50" class="img navbar-brand mr-2 text-center">
+        <a class="navbar-brand" style="font-size: 30px;" href="#">PyP Media</a>
+        <button class="navbar-toggler hidden-lg-up bg-light" type="button" data-toggle="collapse"
+            data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+            aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mr-5 mt-2 mt-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link" href="./../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./diseñoWyM.html">Diseño Web y Móvil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./comunityManager.html">Comunity Manager</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./asesoriaEstrategica.html">Asesoria Estrategica</a>
+                </li>
+                <!--                <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false">Servicios</a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                            <a class="dropdown-item" href="#">Action 1</a>
+                                            <a class="dropdown-item" href="#">Action 2</a>
+                                        </div>
+                                    </li>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="./quienesSomos.html">Quines Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./blog.html">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="cabecera">
+        <div class="parallax">
+            <div class="row h-100 align-items-center ">
+                <div class="col-md-12">
+                    <h1 class="h1 text-center">Te asesoramos en...</h1>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <section class=" seccion1 mt-4  ">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-6 text-left text-dark align-self-center">
+                    <h2>...Tecnicas de marketing digital</h2>
+                    <h3>..pero que son?..</h3>
+                    <p>Cuando hablamos de tecnicas, nos referimos a las diferentes maneras en que encaminaremos la
+                        promoción de tus productos o servicios
+                        en plataformas digitales como ser como redes sociales, sitios web, emails, etc <span
+                            id="lineasT" style="display: none"> Existen muchas y la
+                            selección de estas técnicas dependerá fundamentalmente de 3 factores: tu potencial público,
+                            la competencia que tienes y tus capacidades. Es cierto que en Internet existen grandes
+                            empresas con grandes presupuestos, pero también es cierto que proyectos más pequeños pueden
+                            hacerse un hueco si logran aplicar de manera inteligente este tipo de técnicas y conectar de
+                            alguna manera con sus audiencias potenciales </span>
+                    </p>
+                    <a id="boton" href="javascript:continuar();" class="btn btn-md btn-secondary">Seguir leyendo</a>
+                </div>
+
+                <div class="seccion-content-right col-md-5 ml-5 p-4 align-self-center">
+                    <img class="foto" src="./../resources/img/asesoria/tecnicasmkt.jpeg" alt="" width="100%">
+                </div>
+    </section>
+
+    <section class="container mt-5">
+        <div class="card-deck">
+            <div class="card">
+                <img src="./../resources/img/asesoria/analitica.jpg" class="card-img-top" alt="..." height="220vw">
+                <div class="card-body">
+                    <h5 class="card-title">Analitica web</h5>
+                    <p class="card-text">Consiste en recopilar toda la información que proporcionan los
+                        usuarios al interactuar con nuestro sitio Web para luego analizar todos los datos, con el
+                        objetivo de mejorar la experiencia de navegación y rendimiento de nuestro negocio o proyecto.
+                        Esto se logra
+                        por medio de herramientas profesionales, sin embargo es importante también
+                        tomar decisiones objetivas al respecto, que exploten los canales donde tenemos un mayor éxito y
+                        optimicen aquellos en los que nuestra Web encuentra mayores obstáculos.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./../resources/img/asesoria/ux.jpg" class="card-img-top" alt="..." height="220vw">
+                <div class="card-body">
+                    <h5 class="card-title">Experiencia de Usuario (Diseño UX)</h5>
+                    <p class="card-text">La experiencia de usuario estudia cómo nuestro público navega por nuestra
+                        página web o app y trata de crear una percepción positiva y llevar a los usuarios a los
+                        objetivos marcados por el analista Web.
+                        UX depende tanto del diseño y de las tecnologías utilizadas en la web, como de las emociones,
+                        sentimientos y percepciones que los usuarios tienen de nuestros productos, servicios y marcas.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./../resources/img/asesoria/email.jpg" class="card-img-top" alt="..." height="220vw">
+                <div class="card-body">
+                    <h5 class="card-title">Email Marketing</h5>
+                    <p class="card-text">Es una técnica de marketing digital que utiliza el correo electrónico como
+                        medio de comunicación comercial para enviar mensajes a tus clientes actuales o potenciales, lo
+                        cual te permite estar
+                        presente en la vida diaria de cada uno de ellos..
+                        Con esta tecnica podrás alcanzar notoriedad (dar a conocer a tu negocio), establecer una imagen
+                        ante la sociedad y finalmente, lo mas importante
+                        inducir a tus clientes a adquirir tus productos y servicios.
+                        La principal ventaja es la gran escalabilidad ya que los correos electrónicos se pueden
+                        implementar a gran escala a un gran número de destinatarios. </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+
+
+            <div class="card-deck mt-4">
+                <div class="card">
+                    <img src="./../resources/img/asesoria/" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Inbound Marketing (Mercadotecnia de atracción)</h5>
+                        <p class="card-text">Este metodo combina técnicas de marketing y publicidad no intrusivas
+                            con la finalidad de contactar con un usuario y acompañarle
+                            mediante el contenido apropiado en cada una de las fases del proceso de compra,
+                            hasta la transacción final, siempre de forma “amigable”. De esta manera se logra generar
+                            clientes fieles.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="" class="btn btn-secondary">Aprieta aqui</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./../resources/img/asesoria/seo.jpg" class="card-img-top" alt="..." height="220vw">
+                    <div class="card-body">
+                        <h5 class="card-title">SEO (Posicionamiento en Buscadores)</h5>
+                        <p class="card-text"> El objetivo principal del SEO es posicionar o mejor dicho, mejorar la
+                            visibilidad de cualquier página Web en las listas de resultados
+                            de los diferentes motores de busqueda (google, bing, etc), incrementando asi el número de
+                            visitas que llegan desde los buscadores. El SEO abarca muchos aspectos: Desde las palabras y
+                            el contenido de tu página hasta la forma en la que otras páginas linkan hacia vuestra Web.
+                            SEO no consiste únicamente en construir una web adecuada a los motores de búsqueda, sino
+                            tambien
+                            crear contenido de calidad que resulte altamente relevante para los usuarios.
+
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./../resources/img/asesoria/redes.jpg" class="card-img-top" alt="..." height="220vw">
+                    <div class="card-body">
+                        <h5 class="card-title">Redes Sociales</h5>
+                        <p class="card-text"></p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue text-white pt-4 mt-5 bg-dark">
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-md-1">
+                    <img src="./../resources/img/logo2.png" alt="" width="70" height="70" class="footer-logo mr-2">
+                </div>
+                <div class="col-md-5 mt-md-0 mt-3">
+                    <h5 class="text-uppercase">PyP Media</h5>
+                    <p>Calle Mendoza 451, Santiago del Estero, Argentina</p>
+                </div>
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h6 class="text-uppercase">Servicios</h6>
+                    <ul class="list-unstyled">
+                        <li> <a href="./../index.html">Inicio</a> </li>
+                        <li> <a href="./diseñoWyM.html">Diseño Web y Móvil</a> </li>
+                        <li> <a href="./comunityManager.html">Comunity Manager</a> </li>
+                        <li> <a href="./asesoriaEstrategica.html">Asesoria Estrategica</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h6 class="text-uppercase">Corporativo</h6>
+                    <ul class="list-unstyled">
+                        <li> <a href="./quienesSomos.html">Quienes Somos</a> </li>
+                        <li> <a href="./contacto.html">Contacto</a> </li>
+                        <li> <a href="./blog.html">Blog</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 bg-light">
+            © 2020 Copyright: Ponce-Pardo Agencia de marketing digital
+        </div>
+    </footer>
+
+    <script>
+        function continuar() {
+            document.getElementById("lineasT").style.display = " block";
+            document.getElementById("boton").style.display = "none";
+        }
+
+    </script>
+
+    <!-- Bootrtrap 4 scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
