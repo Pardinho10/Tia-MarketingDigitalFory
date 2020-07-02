@@ -40,6 +40,18 @@
             background-size: cover;
         }
 
+        .parallax1 {
+            background-image: url("./../resources/img/asesoria/219.jpg");
+            /* Set a specific height and width */
+            height: 300px;
+            width: 1350px;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
         .h1 {
             font-family: 'Sedgwick Ave', cursive;
             font-size: 50px;
@@ -50,9 +62,33 @@
             transform: translate(-10%, -50%);
         }
 
+        .parrafo {
+            font-size: 18px;
+            color: aliceblue;
+            position: absolute;
+            top: -70px;
+            left: 40%;
+            transform: translate(-50%, 80%);
+        }
+
+        #h2parrafo {
+            color: aliceblue;
+            position: absolute;
+            top: 10px;
+            left: 30%;
+            transform: translate(-50%, 80%);
+        }
+
         .card {
             overflow: hidden;
-            box-shadow: 15px 15px 15px rgba(236, 88, 2, 0.548);
+            box-shadow: 15px 15px 15px rgba(71, 73, 75, 0.548);
+        }
+        .card-img-top:hover{
+        transition: all .5s ease-in-out;
+        }
+
+        .card-img-top:hover{
+            -webkit-transform:scale(1.3);transform:scale(1.3);
         }
 
         h2,
@@ -64,14 +100,13 @@
             border-radius: 20%/60%;
             overflow: hidden;
             box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548);
-
             transition: all .5s ease-in-out;
         }
 
 
 
         .foto:hover {
-            filter: sepia(70%); 
+            filter: sepia(70%);
         }
     </style>
 
@@ -146,7 +181,7 @@
                             la competencia que tienes y tus capacidades. Es cierto que en Internet existen grandes
                             empresas con grandes presupuestos, pero también es cierto que proyectos más pequeños pueden
                             hacerse un hueco si logran aplicar de manera inteligente este tipo de técnicas y conectar de
-                            alguna manera con sus audiencias potenciales </span>
+                            alguna manera con sus audiencias potenciales. </span>
                     </p>
                     <a id="boton" href="javascript:continuar();" class="btn btn-md btn-secondary">Seguir leyendo</a>
                 </div>
@@ -156,10 +191,35 @@
                 </div>
     </section>
 
-    <section class="container mt-5">
+    <section class=" parallax1 mb-4 mt-5">
+        <div class="row">
+            <div class="col-md-6 text-white">
+                <h2 id="h2parrafo" class="text-left">Nuestro trabajo es.. </h2>
+                <p class=" parrafo mt-4">
+                    ...asesrorarte y crear la estarategia mas
+                    adecuada para tu negocio, combinando las tecnicas que hoy son tendencia mundial
+                    y que te llevaran a un crecimiento exponencial. <br>
+                    <a href="contacto.html" class="mt-2 btn btn-outline-light"> Contactanos..</a>
+
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="p-3" >
+        <div class="row align-items-center">
+            <div class="col-md-12 align-self-center text-center">
+                <h4>Algunas de las tecnicas que usamos para armar estrategias... </h4>
+                <span style="font-size: 30px; "><i class="fa fa-arrow-down" aria-hidden="true"></i></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-4">
         <div class="card-deck">
             <div class="card">
-                <img src="./../resources/img/asesoria/analitica.jpg" class="card-img-top" alt="..." height="220vw">
+                <img src="./../resources/img/asesoria/analitica_web.jpg" class="card-img-top" alt="..." height="220vw">
                 <div class="card-body">
                     <h5 class="card-title">Analitica web</h5>
                     <p class="card-text">Consiste en recopilar toda la información que proporcionan los
@@ -171,12 +231,11 @@
                         optimicen aquellos en los que nuestra Web encuentra mayores obstáculos.
                     </p>
                 </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
+
             </div>
             <div class="card">
-                <img src="./../resources/img/asesoria/ux.jpg" class="card-img-top" alt="..." height="220vw">
+                <img src="./../resources/img/asesoria/diseño-y-desarrollo-de-sitios-web.jpg" class="card-img-top"
+                    alt="..." height="220vw">
                 <div class="card-body">
                     <h5 class="card-title">Experiencia de Usuario (Diseño UX)</h5>
                     <p class="card-text">La experiencia de usuario estudia cómo nuestro público navega por nuestra
@@ -186,12 +245,10 @@
                         sentimientos y percepciones que los usuarios tienen de nuestros productos, servicios y marcas.
                     </p>
                 </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
+
             </div>
             <div class="card">
-                <img src="./../resources/img/asesoria/email.jpg" class="card-img-top" alt="..." height="220vw">
+                <img src="./../resources/img/asesoria/email.png" class="card-img-top" alt="..." height="220vw">
                 <div class="card-body">
                     <h5 class="card-title">Email Marketing</h5>
                     <p class="card-text">Es una técnica de marketing digital que utiliza el correo electrónico como
@@ -204,29 +261,30 @@
                         La principal ventaja es la gran escalabilidad ya que los correos electrónicos se pueden
                         implementar a gran escala a un gran número de destinatarios. </p>
                 </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
+
             </div>
 
 
             <div class="card-deck mt-4">
                 <div class="card">
-                    <img src="./../resources/img/asesoria/" class="card-img-top" alt="...">
+                    <img src="./../resources/img/asesoria/inboundmarketing.jpg" class="card-img-top" alt="..."
+                        height="220vw">
                     <div class="card-body">
                         <h5 class="card-title">Inbound Marketing (Mercadotecnia de atracción)</h5>
                         <p class="card-text">Este metodo combina técnicas de marketing y publicidad no intrusivas
                             con la finalidad de contactar con un usuario y acompañarle
                             mediante el contenido apropiado en cada una de las fases del proceso de compra,
                             hasta la transacción final, siempre de forma “amigable”. De esta manera se logra generar
-                            clientes fieles.</p>
+                            clientes fieles. A diferencia del marketing tradicional, con el inbound no necesitas
+                            esforzarte por llamar la atención de los clientes potenciales, ya que, al crear contenido
+                            diseñado para abordar los problemas y las necesidades de tus clientes, atraerás
+                            nuevos, generando asi, confianza y credibilidad para tu empresa. </p>
                     </div>
-                    <div class="card-footer">
-                        <a href="" class="btn btn-secondary">Aprieta aqui</a>
-                    </div>
+
                 </div>
                 <div class="card">
-                    <img src="./../resources/img/asesoria/seo.jpg" class="card-img-top" alt="..." height="220vw">
+                    <img src="./../resources/img/asesoria/posicionamiento-seo.jpg" class="card-img-top" alt="..."
+                        height="220vw">
                     <div class="card-body">
                         <h5 class="card-title">SEO (Posicionamiento en Buscadores)</h5>
                         <p class="card-text"> El objetivo principal del SEO es posicionar o mejor dicho, mejorar la
@@ -240,19 +298,21 @@
 
                         </p>
                     </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
+
                 </div>
                 <div class="card">
-                    <img src="./../resources/img/asesoria/redes.jpg" class="card-img-top" alt="..." height="220vw">
+                    <img src="./../resources/img/asesoria/redes10.jpg" class="card-img-top" alt="..." height="220vw">
                     <div class="card-body">
                         <h5 class="card-title">Redes Sociales</h5>
-                        <p class="card-text"></p>
+                        <p class="card-text">El marketing en redes sociales puede ayudar a elevar tu audiencia y
+                            convertir a personas interesadas, en clientes potenciales de una forma significativa.
+                            Es vital comprender el funcionamiento de las redes sociales y la respuesta de tu audiencia
+                            en cada una de ellas, analizando, evaluando y ejecutando el contenido.
+                            El siguiente paso es la creacion de contenido relevante y diseñado para tu audiencia con el
+                            fin de
+                            aumentar la presencia que tiene tu marca dentro de los medios digitales</p>
                     </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
+
                 </div>
             </div>
         </div>

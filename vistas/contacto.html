@@ -1,67 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <!-- Bootstrap 4 -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-              integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <!-- Fuentes -->
+     <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    <!-- Titulo  -->
+    <title>Contacto</title>
 
-        <!-- Titulo  -->
-        <title>Contacto</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./../resources/css/styles.css" />
 
-        <!-- Estilos CSS -->
-        <link rel="stylesheet" href="./../resources/css/styles.css" />
+    <style>
+        .parallax {
+            background-image: url("./../resources/img/telecom1 (2).jpg");
+            -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+            /* Set a specific height and width */
+            height: 500px;
+            width: 1350px;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
-        <style>
-            .slider{
-                position: relative;
+        .slider {
+            position: relative;
 
-                text-align: center;
-            }
-            .texto-c{
-                position: absolute;
-                color:white;
-                top: 70%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-            }
-            .imagen{
-                -webkit-filter: grayscale(100%);
-                filter: grayscale(100%);
-            }
-        </style>
-    </head>
+            text-align: center;
+        }
 
-    <body>
-        <!-- Barra Navegadora -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
-            <img src="./../resources/img/logo2.png" alt="" width="50"
-                 height="50" class="img navbar-brand mr-2 text-center">
-            <a class="navbar-brand" style="font-size: 30px;" href="#">PyP Media</a>
-            <button class="navbar-toggler hidden-lg-up bg-light" type="button" data-toggle="collapse"
-                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                    aria-label="Toggle navigation"></button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav ml-auto mr-5 mt-2 mt-lg-0">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="./../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./diseñoWyM.html">Diseño Web y Móvil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./comunityManager.html">Comunity Manager</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./asesoriaEstrategica.html">Asesoria Estrategica</a>
-                    </li>
-                    <!--                <li class="nav-item dropdown">
+        .texto-c {
+            position: absolute;
+            color: white;
+            top: 60%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+        }
+        h2{
+            font-family: 'Sedgwick Ave', cursive;
+        }
+
+        .redes{
+            text-decoration: none;
+            color: #212529;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Barra Navegadora -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+        <img src="./../resources/img/logo2.png" alt="" width="50" height="50" class="img navbar-brand mr-2 text-center">
+        <a class="navbar-brand" style="font-size: 30px;" href="#">PyP Media</a>
+        <button class="navbar-toggler hidden-lg-up bg-light" type="button" data-toggle="collapse"
+            data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+            aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mr-5 mt-2 mt-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link" href="./../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./diseñoWyM.html">Diseño Web y Móvil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./comunityManager.html">Comunity Manager</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./asesoriaEstrategica.html">Asesoria Estrategica</a>
+                </li>
+                <!--                <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
                                             aria-haspopup="true" aria-expanded="false">Servicios</a>
                                         <div class="dropdown-menu" aria-labelledby="dropdownId">
@@ -69,138 +88,169 @@
                                             <a class="dropdown-item" href="#">Action 2</a>
                                         </div>
                                     </li>-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="./quienesSomos.html">Quines Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./blog.html">Blog</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                <li class="nav-item">
+                    <a class="nav-link" href="./quienesSomos.html">Quines Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./blog.html">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-        <!-- Header -->
-        <header class="slider">
-            <img class="imagen" src="./../resources/img/notebook-cafe1.jpg" alt="" width="100%"
-                 height="400" >
-            <div class="container texto-c mt-4 ">               
-                <div class="row">
-                    <div class="col-md-5 mr-auto font-weight-bold contenido">
-                        <h2 class="">Contactate !!!</h2>
-                        <p class="text-justify">
-                            Ponemos a tu dispocision muchas maneras de comunicarte con nosotros,
-                            estamos esperandote para brindarte el mejor asesoriamiento
-                        </p>
-                        <!--<a href="" class="header-btn mt-3 btn btn-secondary btn-lg">Leer mas</a>-->
-                    </div>
+    <!-- Header -->
+    <!-- <header class="slider">
+        <img class="imagen" src="./../resources/img/notebook-cafe1.jpg" alt="" width="100%" height="400">
+        <div class="container texto-c mt-4 ">
+            <div class="row">
+                <div class="col-md-5 mr-auto font-weight-bold contenido">
+                    <h2 class="">Contactate !!!</h2>
+                    <p class="text-justify">
+                        Ponemos a tu dispocision muchas maneras de comunicarte con nosotros,
+                        estamos esperandote para brindarte el mejor asesoriamiento
+                    </p>
+                    <a href="" class="header-btn mt-3 btn btn-secondary btn-lg">Leer mas</a>
                 </div>
-
             </div>
 
-        </header>
-        
-        <section class="bg-light text-center py-4 mb-3" >
+        </div> -->
+
+    </header>
+    <header class="cabecera text-white">
+        <div class="parallax">
+            <div class="row h-100 align-items-center ">
+                <div class="col-md-4 ml-4 texto-c">
+                    <h2 class="">Contactate !!!</h2>
+                    <p class=" text-left" style="font-size: 18px;">
+                        Ponemos a tu dispocision muchas maneras de comunicarte con nosotros,
+                        estamos esperandote para brindarte el mejor asesoriamiento
+                    </p>
+                    <!--<a href="" class="header-btn mt-3 btn btn-secondary btn-lg">Leer mas</a>-->
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <section class=" text-center py-4 mb-3 " style=" background-color: #eeecec;">
+        <div class="container ">
+            <div class="row ">
+                <div class="section-datos col-md-3  ">
+                    <i class="fa fa-map-marker fa-30x mr-3" aria-hidden="true"></i>Direccion: Calle Mendoza 451.
+                </div>
+                <div class="section-datos col-md-3  ">
+                    <i class="fa fa-phone mr-2" aria-hidden="true"></i>Telefono: (0385)421-9999
+                </div>
+                <div class="section-datos col-md-3  ">
+                    <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>Lunes-viernes 09:00hs a 17:00hs
+                </div>
+                <div class="section-datos col-md-3  ">
+                    <i class="fa fa-envelope mr-2" aria-hidden="true"></i>Email: PYPmedia@gmail.com
+                </div>
+            </div>
+            <hr>
             <div class="container ">
                 <div class="row ">
                     <div class="section-datos col-md-3  ">
-                        <i class="fa fa-map-marker fa-30x mr-3" aria-hidden="true"></i>Direccion: Calle Mendoza 451.
-                    </div> 
+                        Nuestras redes sociales <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </div>
                     <div class="section-datos col-md-3  ">
-                        <i class="fa fa-phone mr-2" aria-hidden="true"></i>Telefono: (0385)421-9999
-                    </div> 
+                        <a class="redes" href="https://www.instagram.com/?hl=es-la" ><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+                    </div>
                     <div class="section-datos col-md-3  ">
-                        <i class="fa fa-clock-o mr-2" aria-hidden="true"></i>Lunes-viernes 09:00hs a 17:00hs 
-                    </div> 
+                        <a class="redes" href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+                    </div>
                     <div class="section-datos col-md-3  ">
-                        <i class="fa fa-envelope mr-2" aria-hidden="true"></i>Email: PYPmedia@gmail.com
-                    </div> 
+                        <a class="redes" href="https://twitter.com/?lang=es"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+                    </div>
+                    
                 </div>
-            </div>
-        </section>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5">
-                        <!-- md-5 Es porque vamos a dar un espaciado entre cajas-->
-                        <form class="card my-3" action="" method="get ">
-                            <div class="card-body">
-                                <div class="form-group">
-                                    <input type="text" name="" id="" placeholder="Nombre" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" name="" id="" placeholder="Correo Electronico" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <textarea name="" id="" cols="30" rows="10" class="form-control"
-                                              placeholder="Su mensaje"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-dark btn-block">
-                                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                                    Enviar</button>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <!-- md-5 Es porque vamos a dar un espaciado entre cajas-->
+                    <form class="card my-3" action="" method="get ">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <input type="text" name="" id="" placeholder="Nombre" class="form-control">
                             </div>
-                        </form>
-                    </div>
-                    <div class="col-md-7 text-center">
-                        <H2>Contacto</H2>
-                        <p>Comunicate con nosotros a traves de nuestro formulario e immediantamente nos comunicaremos
-                            contigo. Podes dejarnos una consulta, pedirnos un presupuesto personalizado o solicitar suscripcion para 
-                            recibir informacion sobre las novedades de nuestra empresa.
-                        </p>
-                    </div>
+                            <div class="form-group">
+                                <input type="email" name="" id="" placeholder="Correo Electronico" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="" id="" cols="30" rows="10" class="form-control"
+                                    placeholder="Su mensaje"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-dark btn-block">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-7 text-center mt-4">
+                    <h2>Contacto</h2>
+                    <p>Comunicate con nosotros a traves de nuestro formulario e immediantamente nos comunicaremos
+                        contigo. Podes dejarnos una consulta, pedirnos un presupuesto personalizado o solicitar
+                        suscripcion para
+                        recibir informacion sobre las novedades de nuestra empresa.
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
 
-        <!-- Footer -->
-        <footer class="page-footer font-small blue text-white pt-4 mt-5 bg-dark" >
-            <div class="container text-center text-md-left">
-                <div class="row">
-                    <div class="col-md-1">
-                        <img src="./../resources/img/logo2.png" alt="" width="70"
-                             height="70" class="footer-logo mr-2">
-                    </div>
-                    <div class="col-md-5 mt-md-0 mt-3">
-                        <h5 class="text-uppercase">PyP Media</h5>
-                        <p>Calle Mendoza 451, Santiago del Estero, Argentina</p>
-                    </div>
-                    <hr class="clearfix w-100 d-md-none pb-3"> 
-                    <div class="col-md-3 mb-md-0 mb-3">
-                        <h6 class="text-uppercase">Servicios</h6>
-                        <ul class="list-unstyled">
-                            <li> <a href="./../index.html">Inicio</a> </li>
-                            <li> <a href="./diseñoWyM.html">Diseño Web y Móvil</a> </li>
-                            <li> <a href="./comunityManager.html">Comunity Manager</a> </li>
-                            <li> <a href="./asesoriaEstrategica.html">Asesoria Estrategica</a> </li>
-                        </ul>
-                    </div> 
-                    <div class="col-md-3 mb-md-0 mb-3">
-                        <h6 class="text-uppercase">Corporativo</h6>
-                        <ul class="list-unstyled">
-                            <li> <a href="./quienesSomos.html">Quienes Somos</a> </li>
-                            <li> <a href="./contacto.html">Contacto</a> </li>
-                            <li> <a href="./blog.html">Blog</a> </li>
-                        </ul>
-                    </div> 
-                </div> 
-            </div> 
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3 bg-light">
-                © 2020 Copyright: Ponce-Pardo Agencia de marketing digital
-            </div> 
-        </footer> 
+    <!-- Footer -->
+    <footer class="page-footer font-small blue text-white pt-4 mt-5 bg-dark">
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-md-1">
+                    <img src="./../resources/img/logo2.png" alt="" width="70" height="70" class="footer-logo mr-2">
+                </div>
+                <div class="col-md-5 mt-md-0 mt-3">
+                    <h5 class="text-uppercase">PyP Media</h5>
+                    <p>Calle Mendoza 451, Santiago del Estero, Argentina</p>
+                </div>
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h6 class="text-uppercase">Servicios</h6>
+                    <ul class="list-unstyled">
+                        <li> <a href="./../index.html">Inicio</a> </li>
+                        <li> <a href="./diseñoWyM.html">Diseño Web y Móvil</a> </li>
+                        <li> <a href="./comunityManager.html">Comunity Manager</a> </li>
+                        <li> <a href="./asesoriaEstrategica.html">Asesoria Estrategica</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h6 class="text-uppercase">Corporativo</h6>
+                    <ul class="list-unstyled">
+                        <li> <a href="./quienesSomos.html">Quienes Somos</a> </li>
+                        <li> <a href="./contacto.html">Contacto</a> </li>
+                        <li> <a href="./blog.html">Blog</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 bg-light">
+            © 2020 Copyright: Ponce-Pardo Agencia de marketing digital
+        </div>
+    </footer>
 
-        <!-- Bootrtrap 4 scripts -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    <!-- Bootrtrap 4 scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    </body>
+</body>

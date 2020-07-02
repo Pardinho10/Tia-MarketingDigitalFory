@@ -51,10 +51,18 @@
             font-family: 'Sedgwick Ave', cursive;
         }
 
-        .foto {           
+        .foto {
             border-radius: 5% 25% 5% 30%;
             overflow: hidden;
             box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548);
+            transition: all .5s ease-in-out;
+        }
+
+        .foto:hover {
+            -webkit-transform: rotateY(180deg);
+            -webkit-transform-style: preserve-3d;
+            transform: rotateY(180deg);
+            transform-style: preserve-3d;
         }
     </style>
 </head>
@@ -113,36 +121,37 @@
     </header>
 
     <section class=" seccion1 bg-light  ">
-    <div class="container">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-md-6 text-left text-dark align-self-center">
-                <h2>Nosotros somos...</h2>
-                <p>....una agencia de marketing digital ubicada en Santiago del Estero, Argentina, cuyo objetivo
-                    primordial es acompañar el crecimiento de nuestros clientes mediante la creación de
-                    excelentes desarrollos a medida de las necesidades. Somos un equipo integrado por profesionales
-                    de la progamación, marketing, diseño grafico y sociologia.
-                    Ofrecemos estrategias analíticas avanzadas,<span id="lineasT" style="display: none"> diseñamos,
-                        creamos, y elaboramos tu proyecto de
-                        negocio. Gestionamos y hacemos crecer tus redes
-                        sociales. <br>
-                        Nuestra idea surge hacia finales del año 2017 de 4 programadores recien egresados, que
-                        en principio, haciamos el desarrollo de sistemas
-                        de escritorio. Poco a poco el equipo fue sientiendo que un sistema es solo una parte de lo que
-                        debe ser
-                        una estrategia conformada por herramientas que potencien el crecimiento de una empresa desde
-                        diferentes lugares.
-                        Asi pasamos de ser solo 4 personas a ampliarnos en un proyecto
-                        integrado hoy por mas de 50 especialistas de diversas disciplinas. </span>
-                </p>
-                <a id="boton" href="javascript:continuar();" class="btn btn-md btn-secondary">Seguir leyendo</a>
-            </div>
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-6 text-left text-dark align-self-center">
+                    <h2>Nosotros somos...</h2>
+                    <p>....una agencia de marketing digital ubicada en Santiago del Estero, Argentina, cuyo objetivo
+                        primordial es acompañar el crecimiento de nuestros clientes mediante la creación de
+                        excelentes desarrollos a medida de las necesidades. Somos un equipo integrado por profesionales
+                        de la progamación, marketing, diseño grafico y sociologia.
+                        Ofrecemos estrategias analíticas avanzadas,<span id="lineasT" style="display: none"> diseñamos,
+                            creamos, y elaboramos tu proyecto de
+                            negocio. Gestionamos y hacemos crecer tus redes
+                            sociales. <br>
+                            Nuestra idea surge hacia finales del año 2017 de 4 programadores recien egresados, que
+                            en principio, haciamos el desarrollo de sistemas
+                            de escritorio. Poco a poco el equipo fue sientiendo que un sistema es solo una parte de lo
+                            que
+                            debe ser
+                            una estrategia conformada por herramientas que potencien el crecimiento de una empresa desde
+                            diferentes lugares.
+                            Asi pasamos de ser solo 4 personas a ampliarnos en un proyecto
+                            integrado hoy por mas de 50 especialistas de diversas disciplinas. </span>
+                    </p>
+                    <a id="boton" href="javascript:continuar();" class="btn btn-md btn-secondary">Seguir leyendo</a>
+                </div>
 
-            <div class="seccion-content-right col-md-5 ml-5 p-4 align-self-center">
-                <img class="foto" src="./../resources/img/quienes/history-0.png" alt="" width="100%">
-            </div>
+                <div class="seccion-content-right col-md-5 ml-5 p-4 align-self-center">
+                    <img class="foto" src="./../resources/img/quienes/history-0.png" alt="" width="100%">
+                </div>
 
+            </div>
         </div>
-    </div>
     </section>
 
 
