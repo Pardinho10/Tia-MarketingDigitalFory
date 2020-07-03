@@ -41,3 +41,50 @@ footer{
     
 }
 
+.parallax {
+    /* The image used */
+    background-image: url("https://www.hemisferioweb.com.ar/wp-content/uploads/2019/12/trabajos-de-hemisferioweb.png");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .centerText{
+    text-align: center;
+ }
+
+ .zoom{
+  transition: 1.5s ease;
+   -moz-transition: 1.5s ease; /* Firefox */
+   -webkit-transition: 1.5s ease; /* Chrome - Safari */
+   -o-transition: 1.5s ease; /* Opera */
+}
+.zoom:hover{
+  transform : scale(2);
+  -moz-transform : scale(2); /* Firefox */
+  -webkit-transform : scale(2); /* Chrome - Safari */
+  -o-transform : scale(2); /* Opera */
+  -ms-transform : scale(2); /* IE9 */
+}
+
+
+.parallax2 {
+    /* The image used */
+    background-image: url("https://www.trecebits.com/wp-content/uploads/2019/08/Iconos-Redes-Sociales.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
