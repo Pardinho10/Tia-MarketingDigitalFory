@@ -11,8 +11,8 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-     <!-- Fuentes -->
-     <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
     <!-- Titulo  -->
     <title>Contacto</title>
 
@@ -47,11 +47,13 @@
             left: 20%;
             transform: translate(-50%, -50%);
         }
-        h2{
+
+        h2,
+        h1 {
             font-family: 'Sedgwick Ave', cursive;
         }
 
-        .redes{
+        .redes {
             text-decoration: none;
             color: #212529;
         }
@@ -69,10 +71,10 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav ml-auto mr-5 mt-2 mt-lg-0">
                 <li class="nav-item ">
-                    <a class="nav-link" href="./../index.html">Inicio</a>
+                    <a class="nav-link" href="./../index1.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./diseñoWyM.html">Diseño Web y Móvil</a>
+                    <a class="nav-link" href="./diseñoWyM.html">Desarrollo Web</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./comunityManager.html">Comunity Manager</a>
@@ -123,7 +125,7 @@
         <div class="parallax">
             <div class="row h-100 align-items-center ">
                 <div class="col-md-4 ml-4 texto-c">
-                    <h2 class="">Contactate !!!</h2>
+                    <h1 class="">Contactate...</h1>
                     <p class=" text-left" style="font-size: 18px;">
                         Ponemos a tu dispocision muchas maneras de comunicarte con nosotros,
                         estamos esperandote para brindarte el mejor asesoriamiento
@@ -158,35 +160,41 @@
                         Nuestras redes sociales <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </div>
                     <div class="section-datos col-md-3  ">
-                        <a class="redes" href="https://www.instagram.com/?hl=es-la" ><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+                        <a class="redes" href="https://www.instagram.com/?hl=es-la"><i class="fa fa-instagram"
+                                aria-hidden="true"></i> Instagram</a>
                     </div>
                     <div class="section-datos col-md-3  ">
-                        <a class="redes" href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+                        <a class="redes" href="https://www.facebook.com/"><i class="fa fa-facebook"
+                                aria-hidden="true"></i> Facebook</a>
                     </div>
                     <div class="section-datos col-md-3  ">
-                        <a class="redes" href="https://twitter.com/?lang=es"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+                        <a class="redes" href="https://twitter.com/?lang=es"><i class="fa fa-twitter"
+                                aria-hidden="true"></i> Twitter</a>
                     </div>
-                    
+
                 </div>
-        </div>
+            </div>
     </section>
     <section>
+
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
                     <!-- md-5 Es porque vamos a dar un espaciado entre cajas-->
-                    <form class="card my-3" action="" method="get ">
+                    <form class="card my-3" action="./contacto.html" method="GET" onsubmit=" return validar();">
                         <div class="card-body">
                             <div class="form-group">
-                                <input type="text" name="" id="" placeholder="Nombre" class="form-control">
+                                <input type="text" name="" id="nombre" placeholder="Nombre" class="form-control">
                             </div>
                             <div class="form-group">
-                                <input type="email" name="" id="" placeholder="Correo Electronico" class="form-control">
+                                <input type="email" name="" id="mail" placeholder="Correo Electronico"
+                                    class="form-control">
                             </div>
                             <div class="form-group">
-                                <textarea name="" id="" cols="30" rows="10" class="form-control"
+                                <textarea name="" id="texto" cols="30" rows="10" class="form-control"
                                     placeholder="Su mensaje"></textarea>
                             </div>
+
                             <button type="submit" class="btn btn-dark btn-block">
                                 <i class="fa fa-paper-plane" aria-hidden="true"></i>
                                 Enviar</button>
@@ -221,8 +229,8 @@
                 <div class="col-md-3 mb-md-0 mb-3">
                     <h6 class="text-uppercase">Servicios</h6>
                     <ul class="list-unstyled">
-                        <li> <a href="./../index.html">Inicio</a> </li>
-                        <li> <a href="./diseñoWyM.html">Diseño Web y Móvil</a> </li>
+                        <li> <a href="./../index1.html">Inicio</a> </li>
+                        <li> <a href="./diseñoWyM.html">Desarrollo Web</a> </li>
                         <li> <a href="./comunityManager.html">Comunity Manager</a> </li>
                         <li> <a href="./asesoriaEstrategica.html">Asesoria Estrategica</a> </li>
                     </ul>
@@ -242,6 +250,45 @@
             © 2020 Copyright: Ponce-Pardo Agencia de marketing digital
         </div>
     </footer>
+
+    <script>
+        function validar() {
+
+            var sinErrores = true
+            var nombre = document.getElementById("nombre").value
+            var correo = document.getElementById("mail").value
+            var texto = document.getElementById("texto").value
+            var patronTexto = /^[a-zA-Z-\s]{1,}$/
+            var patron = /^[\w-\.\@]{1,}$/
+            if (patronTexto.test(nombre)) {
+                if (patron.test(correo)) {
+                    if (texto.length != 0) {
+                        alert("Gracias por enviar tu consulta, contestaremos a la brevedad");
+                       
+                    }
+                    else{
+                        alert("Ingresa tu consulta por favor")
+                        sinErrores =  false
+                    }
+                    
+                } else {
+                    alert("Correo No Valido")
+                    sinErrores = false
+                }
+            } else {
+                alert("nombre incorrecto")
+                sinErrores = false
+            }
+            borrarCaja()
+            return sinErrores
+        }
+        function borrarCaja() {
+            document.getElementById("mail").value = " "
+            document.getElementById("nombre").value = " "
+        }
+
+
+    </script>
 
     <!-- Bootrtrap 4 scripts -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
