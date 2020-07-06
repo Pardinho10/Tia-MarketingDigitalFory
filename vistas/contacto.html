@@ -26,7 +26,7 @@
             filter: grayscale(0%);
             /* Set a specific height and width */
             height: 500px;
-            
+
             /* Create the parallax scrolling effect */
             background-attachment: fixed;
             background-position: 50% 50%;
@@ -56,6 +56,16 @@
         .redes {
             text-decoration: none;
             color: #212529;
+        }
+
+        .foto{
+            border-radius: 150px;
+        transition: all .5s ease-in-out;
+        }
+
+        .foto:hover{
+            -webkit-transform:scale(1.2);
+            transform:scale(1.2);
         }
     </style>
 </head>
@@ -212,6 +222,25 @@
             </div>
         </div>
     </section>
+   
+    <div class="container mt-3 " style=" background-color: #eeecec;">
+        <div class="row">
+            
+                <div class="col-xs-12 mt-3 text-center col-md-3 text-left text-dark align-self-center">
+                    <h2>Nuestra ubicación.. <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
+                    <p>Estamos en Barrio Centro a poco mas de 200 metros del Parque Aguirre y a 500 metros de de Plaza Libertad.
+                    Te esperamos para brindarte de manera personal el mejor asesoramiento.. 
+                    </p>
+                    
+                </div>
+
+                <div class="seccion-content-right col-md-9  p-4 align-self-center">
+                    <img class="foto" src="./../resources/img/mendoza451.jpg" alt="" width="100%" height="">
+                </div>
+            
+        </div>
+    </div>
+
 
 
     <!-- Footer -->
@@ -264,13 +293,13 @@
                 if (patron.test(correo)) {
                     if (texto.length != 0) {
                         alert("Gracias por enviar tu consulta, contestaremos a la brevedad");
-                       
+
                     }
-                    else{
+                    else {
                         alert("Ingresa tu consulta por favor")
-                        sinErrores =  false
+                        sinErrores = false
                     }
-                    
+
                 } else {
                     alert("Correo No Valido")
                     sinErrores = false
